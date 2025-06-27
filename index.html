@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mathieu De Almeida | Portfolio</title>
+  <link rel="stylesheet" href="/css/style.css"/>
+  <link rel="icon" href="okk.ico"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</head>
+<body>
+  <header>
+    <span style="font-weight:700;" id="nav-name">Mathieu De Almeida</span>
+    <nav aria-label="Navigation principale">
+      <a href="#home" data-i18n="nav.home" tabindex="1">Accueil</a>
+      <a href="#about" data-i18n="nav.about" tabindex="2">À propos</a>
+      <a href="#skills" data-i18n="nav.skills" tabindex="3">Compétences</a>
+      <a href="#projects" data-i18n="nav.projects" tabindex="4">Projets</a>
+      <a href="#education" data-i18n="nav.education" tabindex="5">Parcours</a>
+      <a href="#contact" data-i18n="nav.contact" tabindex="6">Contact</a>
+      <button class="toggle-btn" id="toggle-dark" title="Mode sombre/clair" aria-label="Basculer mode sombre/clair"><i class="fa-solid fa-moon"></i></button>
+      <button class="toggle-btn" id="toggle-lang" title="FR/EN" aria-label="Changer la langue"><i class="fa-solid fa-language"></i></button>
+    </nav>
+  </header>
+  <main>
+    <section id="home" class="hero" tabindex="0">
+      <img src="ima.jpeg" alt="Mathieu De Almeida" />
+      <h1 id="hero-title">J’ai découvert le développement par curiosité…<br>et j’y ai trouvé ma vocation.</h1>
+      <p id="hero-desc">
+        Je découvre le développement web avec passion depuis 3 mois et je construis des projets pour apprendre et progresser. J’adore résoudre des problèmes, apprendre de nouvelles technos, et donner vie à des idées via le code.
+      </p>
+      <a href="#projects" class="btn-primary" id="hero-btn">Voir mes projets</a>
+    </section>
+    <section id="about" tabindex="0">
+      <h2 data-i18n="about.title">À propos de moi</h2>
+      <p id="about-1">
+        Actuellement en vacances avant d’entrer au lycée général Joseph Talma à Brunoy, j’ai obtenu mon brevet au collège Bellevue à Crosne. Je me forme au développement web en autodidacte grâce à YouTube et internet.
+      </p>
+      <p id="about-2">
+        Curieux, motivé, j’aime apprendre et progresser chaque jour dans le code.
+      </p>
+    </section>
+    <section id="skills" tabindex="0">
+      <h2 data-i18n="skills.title">Compétences techniques</h2>
+      <div class="skills-grid grid">
+        <div class="skills-card">
+          <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" style="width:40px;height:40px;"></div>
+          <div class="skill-label">HTML</div>
+        </div>
+        <div class="skills-card">
+          <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" style="width:40px;height:40px;"></div>
+          <div class="skill-label">CSS</div>
+        </div>
+        <div class="skills-card">
+          <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" style="width:40px;height:40px;"></div>
+          <div class="skill-label">JavaScript</div>
+        </div>
+        <div class="skills-card">
+          <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" style="width:40px;height:40px;"></div>
+          <div class="skill-label">Python</div>
+        </div>
+        <div class="skills-card">
+          <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" style="width:40px;height:40px;"></div>
+          <div class="skill-label">React</div>
+        </div>
+        <div class="skills-card">
+          <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" style="width:40px;height:40px;"></div>
+          <div class="skill-label">Bootstrap</div>
+        </div>
+        <div class="skills-card">
+          <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="Tailwind" style="width:40px;height:40px;"></div>
+          <div class="skill-label">Tailwind</div>
+        </div>
+        <div class="skills-card">
+          <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" style="width:40px;height:40px;"></div>
+          <div class="skill-label">Git</div>
+        </div>
+        <div class="skills-card">
+          <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" style="width:40px;height:40px;background:#222;border-radius:8px;"></div>
+          <div class="skill-label">GitHub</div>
+        </div>
+        <div class="skills-card">
+          <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" style="width:40px;height:40px;"></div>
+          <div class="skill-label">VS Code</div>
+        </div>
+        <div class="skills-card">
+          <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" style="width:40px;height:40px;"></div>
+          <div class="skill-label">Figma</div>
+        </div>
+        <div class="skills-card">
+          <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" style="width:40px;height:40px;"></div>
+          <div class="skill-label">MySQL</div>
+        </div>
+        <div class="skills-card">
+          <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" style="width:40px;height:40px;"></div>
+          <div class="skill-label">MongoDB</div>
+        </div>
+      </div></div>
+      </div>
+    </section>
+    <section id="projects" tabindex="0">
+      <h2 data-i18n="projects.title">Mes projets</h2>
+      <div class="projects-grid grid">
+        <div class="project-card">
+          <img src="https://placehold.co/400x110?text=Projet+1" alt="Projet lorem" />
+          <h3>lorem</h3>
+          <p id="project-1-desc">
+            Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor.
+          </p>
+          <div class="project-links">
+            <a href="https://github.com/google-gemini/gemini-cli" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="https://gemini.google.com/app" target="_blank" id="project-1-demo">Voir en ligne</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="education" tabindex="0">
+      <h2 data-i18n="education.title">Mon parcours & formations</h2>
+      <div class="education">
+        <ul>
+          <li id="edu-1">Brevet au collège Bellevue à Crosne</li>
+          <li id="edu-2">Bientôt au lycée général Joseph Talma à Brunoy</li>
+          <li id="edu-3">Formation autodidacte sur YouTube et internet</li>
+        </ul>
+      </div>
+    </section>
+    <section id="contact" tabindex="0">
+      <h2 data-i18n="contact.title">Contact</h2>
+      <div class="contact">
+        <form class="contact-form" id="contact-form" autocomplete="off">
+          <input type="text" name="name" id="contact-name" placeholder="Votre nom" required>
+          <input type="email" name="email" id="contact-email" placeholder="Votre email" required>
+          <textarea name="message" id="contact-message" rows="4" placeholder="Votre message" required></textarea>
+          <button class="btn-primary" type="submit" id="contact-send-btn">Envoyer</button>
+        </form>
+        <div id="contact-msg" aria-live="polite"></div>
+        <div class="contact-links">
+          <a href="mailto:mathieu.dealmeida@email.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://github.com/MathieuDA" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="#" title="CV PDF"><i class="fa-solid fa-file"></i></a>
+        </div>
+        <div id="success-toast" style="
+  display:none;
+  position:fixed;
+  bottom:30px;
+  right:30px;
+  background:#22c55e;
+  color:#fff;
+  padding:1rem 1.5rem;
+  border-radius:10px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.16);
+  font-weight:600;
+  z-index:9999;
+  transition:opacity .4s;
+">
+  <i class="fa-solid fa-check-circle" style="margin-right:0.5em;"></i>
+  Mail envoyé avec succès !
+</div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    © 2025 Mathieu De Almeida — Portfolio. Tous droits réservés.
+  </footer>
+  <script>
+    // Traductions FR/EN
+    const translations = {
+      fr: {
+        "nav.home": "Accueil", "nav.about": "À propos", "nav.skills": "Compétences", "nav.projects": "Projets", "nav.education": "Parcours", "nav.contact": "Contact",
+        "hero.title": "J’ai découvert le développement par curiosité…<br>et j’y ai trouvé ma vocation.",
+        "hero.desc": "Je découvre le développement web avec passion depuis 3 mois et je construis des projets pour apprendre et progresser. J’adore résoudre des problèmes, apprendre de nouvelles technos, et donner vie à des idées via le code.",
+        "hero.btn": "Voir mes projets",
+        "about.title": "À propos de moi",
+        "about.1": "Actuellement en vacances avant d’entrer au lycée général Joseph Talma à Brunoy, j’ai obtenu mon brevet au collège Bellevue à Crosne. Je me forme au développement web en autodidacte grâce à YouTube et internet.",
+        "about.2": "Curieux, motivé, j’aime apprendre et progresser chaque jour dans le code.",
+        "skills.title": "Compétences techniques",
+        "skills.languages": "Langages", "skills.frameworks": "Frameworks / Libs", "skills.tools": "Outils", "skills.databases": "Bases de données",
+        "projects.title": "Mes projets",
+        "project.1.desc": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor.",
+        "project.1.demo": "Voir en ligne",
+        "education.title": "Mon parcours & formations",
+        "edu.1": "Brevet au collège Bellevue à Crosne",
+        "edu.2": "Bientôt au lycée général Joseph Talma à Brunoy",
+        "edu.3": "Formation autodidacte sur YouTube et internet",
+        "contact.title": "Contact",
+        "contact.name": "Votre nom",
+        "contact.email": "Votre email",
+        "contact.message": "Votre message",
+        "contact.send": "Envoyer",
+        "contact.success": "Merci pour votre message ! Je vous répondrai rapidement.",
+        "contact.error": "Une erreur est survenue. Merci de réessayer.",
+      },
+      en: {
+        "nav.home": "Home", "nav.about": "About", "nav.skills": "Skills", "nav.projects": "Projects", "nav.education": "Education", "nav.contact": "Contact",
+        "hero.title": "I discovered web development out of curiosity…<br>and found my passion.",
+        "hero.desc": "I've been learning web development with passion for 3 months, building projects to learn and grow. I love solving problems, discovering new tech, and bringing ideas to life with code.",
+        "hero.btn": "See my projects",
+        "about.title": "About me",
+        "about.1": "Currently on vacation before starting at Joseph Talma high school in Brunoy, I obtained my brevet at Bellevue middle school in Crosne. I'm self-taught in web development thanks to YouTube and the internet.",
+        "about.2": "Curious and motivated, I love learning and progressing every day in code.",
+        "skills.title": "Technical skills",
+        "skills.languages": "Languages", "skills.frameworks": "Frameworks / Libs", "skills.tools": "Tools", "skills.databases": "Databases",
+        "projects.title": "My projects",
+        "project.1.desc": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor.",
+        "project.1.demo": "Live demo",
+        "education.title": "My education & training",
+        "edu.1": "Brevet at Bellevue middle school in Crosne",
+        "edu.2": "Soon at Joseph Talma high school in Brunoy",
+        "edu.3": "Self-taught via YouTube and the internet",
+        "contact.title": "Contact",
+        "contact.name": "Your name",
+        "contact.email": "Your email",
+        "contact.message": "Your message",
+        "contact.send": "Send",
+        "contact.success": "Thank you for your message! I'll reply soon.",
+        "contact.error": "An error occurred. Please try again.",
+      }
+    };
+    let currentLang = "fr";
+    function translatePage(lang) {
+      currentLang = lang;
+      document.documentElement.lang = lang;
+      document.querySelectorAll("[data-i18n]").forEach(el => {
+        el.textContent = translations[lang][el.getAttribute("data-i18n")];
+      });
+      document.getElementById("hero-title").innerHTML = translations[lang]["hero.title"];
+      document.getElementById("hero-desc").textContent = translations[lang]["hero.desc"];
+      document.getElementById("hero-btn").textContent = translations[lang]["hero.btn"];
+      document.getElementById("about-1").textContent = translations[lang]["about.1"];
+      document.getElementById("about-2").textContent = translations[lang]["about.2"];
+      document.getElementById("project-1-desc").textContent = translations[lang]["project.1.desc"];
+      document.getElementById("project-1-demo").textContent = translations[lang]["project.1.demo"];
+      document.getElementById("edu-1").textContent = translations[lang]["edu.1"];
+      document.getElementById("edu-2").textContent = translations[lang]["edu.2"];
+      document.getElementById("edu-3").textContent = translations[lang]["edu.3"];
+      document.getElementById("contact-name").placeholder = translations[lang]["contact.name"];
+      document.getElementById("contact-email").placeholder = translations[lang]["contact.email"];
+      document.getElementById("contact-message").placeholder = translations[lang]["contact.message"];
+      document.getElementById("contact-send-btn").textContent = translations[lang]["contact.send"];
+    }
+    document.getElementById("toggle-lang").onclick = () => {
+      translatePage(currentLang === "fr" ? "en" : "fr");
+    };
+    translatePage("fr");
+
+    // Dark mode
+    const toggleBtn = document.getElementById('toggle-dark');
+    function setTheme(theme) {
+      document.documentElement.setAttribute('data-theme', theme);
+      localStorage.setItem('theme', theme);
+      toggleBtn.innerHTML = theme === 'dark'
+        ? '<i class="fa-solid fa-sun"></i>'
+        : '<i class="fa-solid fa-moon"></i>';
+    }
+    toggleBtn.onclick = () => {
+      const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      setTheme(theme);
+    };
+    (() => {
+      const saved = localStorage.getItem('theme');
+      setTheme(saved === 'dark' ? 'dark' : 'light');
+    })();
+
+    // EmailJS - envoi réel d'email
+    const EMAILJS_USER_ID = "qYrpAD57GZW1B4q8X";
+    const EMAILJS_SERVICE_ID = "service_fb7im6r";
+    const EMAILJS_TEMPLATE_ID = "template_d33u8fb";
+
+Nom : {{from_name}}
+Email : {{from_email}}
+Message :
+{{message}}
+
+// Envoyé le {{timestamp}}
+    emailjs.init(EMAILJS_USER_ID);
+
+    document.getElementById("contact-form").onsubmit = function(e) {
+      e.preventDefault();
+      const name = document.getElementById("contact-name").value;
+      const email = document.getElementById("contact-email").value;
+      const message = document.getElementById("contact-message").value;
+      emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, {
+        from_name: name,
+        from_email: email,
+        message: message
+      })
+      .then(function() {
+        document.getElementById("contact-msg").style.color = "#22c55e";
+        document.getElementById("contact-msg").textContent = translations[currentLang]["contact.success"];
+        document.getElementById("contact-form").reset();
+      }, function() {
+        document.getElementById("contact-msg").style.color = "#ef4444";
+        document.getElementById("contact-msg").textContent = translations[currentLang]["contact.error"];
+      });
+    };
+  </script>
+</body>
+</html>
